@@ -1,36 +1,111 @@
+[//]: # (# 🎬 Movie Explorer App)
+
+[//]: # ()
+[//]: # (A Java Swing desktop app to search for movies, view posters, and save them as favorites using the OMDb API.)
+
+[//]: # ()
+[//]: # (## 🌟 Features)
+
+[//]: # ()
+[//]: # (- 🔍 Search movies by title)
+
+[//]: # (- 🖼 View poster, genre, rating, and plot)
+
+[//]: # (- 💾 Save to favorites)
+
+[//]: # (- 📂 View + remove from favorites)
+
+[//]: # (- 🌓 Light/Dark theme toggle)
+
+[//]: # (- 📦 Exported runnable `.jar` file)
+
+[//]: # ()
+[//]: # (## 🛠 Tech Stack)
+
+[//]: # ()
+[//]: # (- Java 17)
+
+[//]: # (- Swing GUI)
+
+[//]: # (- FlatLaf theme)
+
+[//]: # (- OMDb API)
+
+[//]: # (- IntelliJ IDEA)
+
+[//]: # (- JSON parsing)
+
+[//]: # ()
+[//]: # (## 🚀 How to Run)
+
+[//]: # ()
+[//]: # (1. Clone this repo)
+
+[//]: # (2. Run `java -jar MovieExplorerApp.jar` from `/out/artifacts/...`)
+
+[//]: # (3. Or open project in IntelliJ and run `main.MovieApp`)
+
+[//]: # ()
+[//]: # (---)
+
+[//]: # ()
+[//]: # (## 💡 Screenshots)
+
+[//]: # ()
+[//]: # (*&#40;later: screenshots of the UI&#41;*)
+
+[//]: # ()
+[//]: # (---)
+
 # 🎬 Movie Explorer App
 
-A Java Swing desktop app to search for movies, view posters, and save them as favorites using the OMDb API.
+A sleek Java Swing desktop application to **search movies**, view IMDb data, display **posters**, and manage a **favorites list** — all powered by the [OMDb API](https://www.omdbapi.com/). Built with FlatLaf for a modern UI experience.
+
+---
 
 ## 🌟 Features
 
-- 🔍 Search movies by title
-- 🖼 View poster, genre, rating, and plot
-- 💾 Save to favorites
-- 📂 View + remove from favorites
-- 🌓 Light/Dark theme toggle
-- 📦 Exported runnable `.jar` file
+✅ Search movies by title  
+✅ Display poster, IMDb rating, genre, and plot  
+✅ Save movies to a personal favorites list  
+✅ View and remove saved favorites  
+✅ Beautiful Dark/Light theme with FlatLaf  
+✅ Fully packaged as a runnable `.jar` file
 
-## 🛠 Tech Stack
+---
 
-- Java 17
-- Swing GUI
-- FlatLaf theme
-- OMDb API
-- IntelliJ IDEA
-- JSON parsing
+## 📸 Screenshots
+
+| Search Results | Favorites View |
+|----------------|----------------|
+| ![Search](screenshots/search.png) | ![Favorites](screenshots/favorites.png) |
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool       | Purpose                 |
+|------------|-------------------------|
+| Java 17    | Programming Language    |
+| Swing      | Desktop GUI             |
+| FlatLaf    | Modern UI Theme         |
+| OMDb API   | Movie data + poster API |
+| JSON       | Parsing API responses   |
+| IntelliJ   | Development environment |
+
+---
 
 ## 🚀 How to Run
 
-1. Clone this repo
-2. Run `java -jar MovieExplorerApp.jar` from `/out/artifacts/...`
-3. Or open project in IntelliJ and run `main.MovieApp`
+### 💻 From IntelliJ (Developer Mode)
 
----
+1. Clone the repo
+2. Open in IntelliJ
+3. Run `main.MovieApp`
 
-## 💡 Screenshots
+### 📦 From `.jar` File (User Mode)
 
-*(later: screenshots of the UI)*
-
----
-
+1. Download `MovieExplorerApp.jar` from [Releases](https://github.com/yourusername/MovieExplorerApp/releases)
+2. In terminal:
+   ```bash
+   java -jar MovieExplorerApp.jar
