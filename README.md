@@ -105,7 +105,13 @@ A sleek Java Swing desktop application to **search movies**, view IMDb data, dis
 
 ### 📦 From `.jar` File (User Mode)
 
-1. Download `MovieExplorerApp.jar` from [Releases](https://github.com/yourusername/MovieExplorerApp/releases)
-2. In terminal:
-   ```bash
-   java -jar MovieExplorerApp.jar
+   ## 📦 Download
+
+👉 [Click here to download MovieExplorerApp.jar](https://github.com/sanaperweenss/MovieExplorerApp/releases/download/v1.0/MovieExplorerApp.jar)
+
+> 💡 Requires **Java 17 or above** installed on your system  
+> 💻 To run:
+> ```bash
+> java -jar MovieExplorerApp.jar
+> ```
+
