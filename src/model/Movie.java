@@ -1,51 +1,36 @@
-// ✅ This class represents the structure of a movie's information
-package model;
+package model; // This class is part of the 'model' package
 
-// 🎬 Movie class holds all the movie details fetched from the API
+/**
+ * 📦 This class represents a Movie object.
+ * It stores basic details about a movie fetched from the OMDb API.
+ */
+
+/**
+ * 🎬 Movie class holds details of one movie.
+ */
 public class Movie {
-
-    // 🔹 These are private fields (data members) for storing movie info
     private String title;
     private String year;
-    private String rated;
-    private String released;
-    private String runtime;
+    private String rating;
     private String genre;
-    private String director;
     private String plot;
-    private String imdbRating;
-    private String posterUrl;
+    private String poster; // ✅ Poster URL field
 
-    // ✅ Constructor to initialize a Movie object with all its details
-    public Movie(String title, String year, String rated, String released, String runtime,
-                 String genre, String director, String plot, String imdbRating, String posterUrl) {
+    // ✅ Constructor with all 6 fields
+    public Movie(String title, String year, String rating, String genre, String plot, String poster) {
         this.title = title;
         this.year = year;
-        this.rated = rated;
-        this.released = released;
-        this.runtime = runtime;
+        this.rating = rating;
         this.genre = genre;
-        this.director = director;
         this.plot = plot;
-        this.imdbRating = imdbRating;
-        this.posterUrl = posterUrl;
+        this.poster = poster;
     }
 
-    // 🔍 Getter methods to safely access each property (OOP encapsulation)
-    public String getTitle()       { return title; }
-    public String getYear()        { return year; }
-    public String getRated()       { return rated; }
-    public String getReleased()    { return released; }
-    public String getRuntime()     { return runtime; }
-    public String getGenre()       { return genre; }
-    public String getDirector()    { return director; }
-    public String getPlot()        { return plot; }
-    public String getImdbRating()  { return imdbRating; }
-    public String getPosterUrl()   { return posterUrl; }
-
-    // 🔁 toString() method helps in debugging — prints a nice one-line summary
-    @Override
-    public String toString() {
-        return title + " (" + year + ") - " + genre + " | Rating: " + imdbRating;
-    }
+    // ✅ Getters
+    public String getTitle() { return title; }
+    public String getYear() { return year; }
+    public String getRating() { return rating; }
+    public String getGenre() { return genre; }
+    public String getPlot() { return plot; }
+    public String getPoster() { return poster; } // ✅ Use this to display poster in GUI
 }
