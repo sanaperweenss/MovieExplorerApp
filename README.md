@@ -115,3 +115,5 @@ A sleek Java Swing desktop application to **search movies**, view IMDb data, dis
 > java -jar MovieExplorerApp.jar
 > ```
 
+## 📥 Download Latest Version
+[⬇️ Download MovieExplorerApp v1.1](https://github.com/sanaperweenss/MovieExplorerApp/releases/download/v1.1/MovieExplorerApp.jar)
